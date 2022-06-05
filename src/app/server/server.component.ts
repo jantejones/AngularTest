@@ -19,4 +19,8 @@ export class ServerComponent implements OnInit {
   getColor(){
     return this.serverStatus === 'online' ? "green" : "red";
   }
+
+  getClass(){
+    return this.serverStatus === 'online' ? "online" : "offline";
+  }
 }
