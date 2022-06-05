@@ -1,0 +1,8 @@
+<button (click)="displayDetails()">Display Details</button>
+<br>
+
+<p *ngIf="isDisplay">Secret Password = tuna</p>
+
+<div *ngFor="let item of items" [ngStyle]="{ backgroundColor: getColor() }">
+  {{item}}
+</div>
