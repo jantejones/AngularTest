@@ -11,5 +11,5 @@ export class ServersComponent implements OnInit {
 
   ngOnInit() {
   }
-  allowNewServer = false;
+  allowNewServer = true;
 }
